@@ -12,55 +12,55 @@
 <!-- hit1 -->
 <g id="node1" class="node">
 <title>hit1</title>
-<polygon fill="#1a1a1a" stroke="#333333" points="368,-1116 260,-1116 260,-1073 368,-1073 368,-1116"/>
-<text text-anchor="middle" x="314" y="-1090.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">I&#39;ve been hit!</text>
+<polygon fill="#1a1a1a" stroke="#333333" points="360,-1116 252,-1116 252,-1073 360,-1073 360,-1116"/>
+<text text-anchor="middle" x="306" y="-1090.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">I&#39;ve been hit!</text>
 </g>
 <!-- dumb_def -->
 <g id="node25" class="node">
 <title>dumb_def</title>
-<polygon fill="#fff494" stroke="#333333" points="403.5,-1044 224.5,-1044 224.5,-976 403.5,-976 403.5,-1044"/>
-<text text-anchor="middle" x="314" y="-1028.8" font-family="sans-serif" font-size="14.00" fill="#000000">Dumb Defense Triggers:</text>
-<text text-anchor="middle" x="314" y="-1013.8" font-family="sans-serif" font-size="14.00" fill="#000000">Weapon Shield, Spell</text>
-<text text-anchor="middle" x="314" y="-998.8" font-family="sans-serif" font-size="14.00" fill="#000000">Shield, Elemental Shield,</text>
-<text text-anchor="middle" x="314" y="-983.8" font-family="sans-serif" font-size="14.00" fill="#000000">Poison Shield, Reflect</text>
+<polygon fill="#fff494" stroke="#333333" points="395.5,-1044 216.5,-1044 216.5,-976 395.5,-976 395.5,-1044"/>
+<text text-anchor="middle" x="306" y="-1028.8" font-family="sans-serif" font-size="14.00" fill="#000000">Dumb Defense Triggers:</text>
+<text text-anchor="middle" x="306" y="-1013.8" font-family="sans-serif" font-size="14.00" fill="#000000">Weapon Shield, Spell</text>
+<text text-anchor="middle" x="306" y="-998.8" font-family="sans-serif" font-size="14.00" fill="#000000">Shield, Elemental Shield,</text>
+<text text-anchor="middle" x="306" y="-983.8" font-family="sans-serif" font-size="14.00" fill="#000000">Poison Shield, Reflect</text>
 </g>
 <!-- hit1&#45;&gt;dumb_def -->
 <g id="edge1" class="edge">
 <title>hit1&#45;&gt;dumb_def</title>
-<path fill="none" stroke="#333333" d="M314,-1072.68C314,-1066.44 314,-1059.36 314,-1052.28"/>
-<polygon fill="#333333" stroke="#333333" points="316.8,-1052.01 314,-1044.01 311.2,-1052.01 316.8,-1052.01"/>
+<path fill="none" stroke="#333333" d="M306,-1072.68C306,-1066.44 306,-1059.36 306,-1052.28"/>
+<polygon fill="#333333" stroke="#333333" points="308.8,-1052.01 306,-1044.01 303.2,-1052.01 308.8,-1052.01"/>
 </g>
 <!-- hit2 -->
 <g id="node2" class="node">
 <title>hit2</title>
-<polygon fill="#1a1a1a" stroke="#333333" points="376,-947 252,-947 252,-894 376,-894 376,-947"/>
-<text text-anchor="middle" x="314" y="-931.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">I&#39;ve been hit</text>
-<text text-anchor="middle" x="314" y="-916.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">again! Do I want</text>
-<text text-anchor="middle" x="314" y="-901.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">to take it?</text>
+<polygon fill="#1a1a1a" stroke="#333333" points="368,-947 244,-947 244,-894 368,-894 368,-947"/>
+<text text-anchor="middle" x="306" y="-931.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">I&#39;ve been hit</text>
+<text text-anchor="middle" x="306" y="-916.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">again! Do I want</text>
+<text text-anchor="middle" x="306" y="-901.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">to take it?</text>
 </g>
 <!-- yes_take -->
 <g id="node13" class="node">
 <title>yes_take</title>
-<polygon fill="#b4f177" stroke="#333333" points="296,-865 188,-865 188,-822 296,-822 296,-865"/>
-<text text-anchor="middle" x="242" y="-839.8" font-family="sans-serif" font-size="14.00" fill="#000000">Yes</text>
+<polygon fill="#b4f177" stroke="#333333" points="288,-865 180,-865 180,-822 288,-822 288,-865"/>
+<text text-anchor="middle" x="234" y="-839.8" font-family="sans-serif" font-size="14.00" fill="#000000">Yes</text>
 </g>
 <!-- hit2&#45;&gt;yes_take -->
 <g id="edge3" class="edge">
 <title>hit2&#45;&gt;yes_take</title>
-<path fill="none" stroke="#333333" d="M289.22,-893.69C282.23,-886.41 274.61,-878.47 267.57,-871.14"/>
-<polygon fill="#333333" stroke="#333333" points="269.39,-868.98 261.83,-865.15 265.35,-872.86 269.39,-868.98"/>
+<path fill="none" stroke="#333333" d="M281.22,-893.69C274.23,-886.41 266.61,-878.47 259.57,-871.14"/>
+<polygon fill="#333333" stroke="#333333" points="261.39,-868.98 253.83,-865.15 257.35,-872.86 261.39,-868.98"/>
 </g>
 <!-- no_take -->
 <g id="node18" class="node">
 <title>no_take</title>
-<polygon fill="#ff9999" stroke="#333333" points="441,-865 333,-865 333,-822 441,-822 441,-865"/>
-<text text-anchor="middle" x="387" y="-839.8" font-family="sans-serif" font-size="14.00" fill="#000000">No</text>
+<polygon fill="#ff9999" stroke="#333333" points="437,-865 329,-865 329,-822 437,-822 437,-865"/>
+<text text-anchor="middle" x="383" y="-839.8" font-family="sans-serif" font-size="14.00" fill="#000000">No</text>
 </g>
 <!-- hit2&#45;&gt;no_take -->
 <g id="edge5" class="edge">
 <title>hit2&#45;&gt;no_take</title>
-<path fill="none" stroke="#333333" d="M339.12,-893.69C346.21,-886.41 353.94,-878.47 361.07,-871.14"/>
-<polygon fill="#333333" stroke="#333333" points="363.33,-872.84 366.9,-865.15 359.31,-868.93 363.33,-872.84"/>
+<path fill="none" stroke="#333333" d="M332.5,-893.69C339.98,-886.41 348.12,-878.47 355.65,-871.14"/>
+<polygon fill="#333333" stroke="#333333" points="358.02,-872.74 361.8,-865.15 354.11,-868.73 358.02,-872.74"/>
 </g>
 <!-- blocked -->
 <g id="node3" class="node">
@@ -95,9 +95,8 @@
 <!-- qualifier -->
 <g id="node4" class="node">
 <title>qualifier</title>
-<polygon fill="#1a1a1a" stroke="#333333" points="448.5,-793 329.5,-793 329.5,-750 448.5,-750 448.5,-793"/>
-<text text-anchor="middle" x="389" y="-775.3" font-family="sans-serif" font-size="14.00" fill="#ffffff">Does it have a</text>
-<text text-anchor="middle" x="389" y="-760.3" font-family="sans-serif" font-size="14.00" fill="#ffffff">strike qualifier?</text>
+<polygon fill="#1a1a1a" stroke="#333333" points="464,-793 314,-793 314,-750 464,-750 464,-793"/>
+<text text-anchor="middle" x="389" y="-767.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">Did they say &#39;strike&#39;?</text>
 </g>
 <!-- yes_qual -->
 <g id="node14" class="node">
@@ -300,14 +299,14 @@
 <!-- luck1 -->
 <g id="node23" class="node">
 <title>luck1</title>
-<polygon fill="#ff66cc" stroke="#333333" points="293,-793 185,-793 185,-750 293,-750 293,-793"/>
-<text text-anchor="middle" x="239" y="-767.8" font-family="sans-serif" font-size="14.00" fill="#000000">ok</text>
+<polygon fill="#ff66cc" stroke="#333333" points="278,-793 170,-793 170,-750 278,-750 278,-793"/>
+<text text-anchor="middle" x="224" y="-767.8" font-family="sans-serif" font-size="14.00" fill="#000000">ok</text>
 </g>
 <!-- yes_take&#45;&gt;luck1 -->
 <g id="edge4" class="edge">
 <title>yes_take&#45;&gt;luck1</title>
-<path fill="none" stroke="#333333" d="M241.12,-821.88C240.84,-815.52 240.54,-808.41 240.25,-801.6"/>
-<polygon fill="#333333" stroke="#333333" points="243.03,-801.09 239.89,-793.22 237.43,-801.33 243.03,-801.09"/>
+<path fill="none" stroke="#333333" d="M231.05,-821.88C230.13,-815.38 229.08,-808.09 228.09,-801.15"/>
+<polygon fill="#333333" stroke="#333333" points="230.86,-800.74 226.96,-793.22 225.32,-801.53 230.86,-800.74"/>
 </g>
 <!-- yes_qual&#45;&gt;blocked -->
 <g id="edge10" class="edge">
@@ -346,7 +345,7 @@
 <title>stalwart</title>
 <polygon fill="#fff494" stroke="#333333" points="770.5,-202 655.5,-202 655.5,-159 770.5,-159 770.5,-202"/>
 <text text-anchor="middle" x="713" y="-184.3" font-family="sans-serif" font-size="14.00" fill="#000000">Stalwart Shield</text>
-<text text-anchor="middle" x="713" y="-169.3" font-family="sans-serif" font-size="14.00" fill="#000000">(&quot;Cloak&quot;)</text>
+<text text-anchor="middle" x="713" y="-169.3" font-family="sans-serif" font-size="14.00" fill="#000000">(&#39;Cloak&#39;)</text>
 </g>
 <!-- yes_shield&#45;&gt;stalwart -->
 <g id="edge26" class="edge">
@@ -357,8 +356,8 @@
 <!-- no_take&#45;&gt;qualifier -->
 <g id="edge6" class="edge">
 <title>no_take&#45;&gt;qualifier</title>
-<path fill="none" stroke="#333333" d="M387.59,-821.88C387.77,-815.52 387.97,-808.41 388.17,-801.6"/>
-<polygon fill="#333333" stroke="#333333" points="390.98,-801.29 388.41,-793.22 385.38,-801.13 390.98,-801.29"/>
+<path fill="none" stroke="#333333" d="M384.77,-821.88C385.31,-815.52 385.92,-808.41 386.51,-801.6"/>
+<polygon fill="#333333" stroke="#333333" points="389.33,-801.43 387.22,-793.22 383.75,-800.95 389.33,-801.43"/>
 </g>
 <!-- no_qual&#45;&gt;qual2 -->
 <g id="edge9" class="edge">
@@ -394,8 +393,8 @@
 <!-- dumb_def&#45;&gt;hit2 -->
 <g id="edge2" class="edge">
 <title>dumb_def&#45;&gt;hit2</title>
-<path fill="none" stroke="#333333" d="M314,-975.92C314,-969.25 314,-962.23 314,-955.53"/>
-<polygon fill="#333333" stroke="#333333" points="316.8,-955.26 314,-947.26 311.2,-955.26 316.8,-955.26"/>
+<path fill="none" stroke="#333333" d="M306,-975.92C306,-969.25 306,-962.23 306,-955.53"/>
+<polygon fill="#333333" stroke="#333333" points="308.8,-955.26 306,-947.26 303.2,-955.26 308.8,-955.26"/>
 </g>
 </g>
 </svg>

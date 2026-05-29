@@ -34,7 +34,7 @@ digraph G {
     hit1       [label="I've been hit!",];
     hit2       [label="I've been hit\nagain! Do I want\nto take it?"];
     blocked    [label="Did you actually block it?"]
-    qualifier  [label="Does it have a\nstrike qualifier?"];
+    qualifier  [label="Did they say 'strike'?"];
     duration   [label="Does it rely on a\nduration or line\nof sight?"];
     qual2      [label="What qualifier is it?"]
     shield     [label="Did it hit your shield?"]
@@ -86,7 +86,7 @@ digraph G {
     counter    [label="Counteract.", fillcolor="#fff494", fontcolor="#000000"];
     elem_res   [label="Realmsworn Elemental Resist\nOR Stalwart Shield (if blocked)", fillcolor="#fff494", fontcolor="#000000"];
     mettle     [label="Mettle (unless\nless than 20\nbody)", fillcolor="#fff494", fontcolor="#000000"];
-    stalwart   [label="Stalwart Shield\n(\"Cloak\")", fillcolor="#fff494", fontcolor="#000000"];
+    stalwart   [label="Stalwart Shield\n('Cloak')", fillcolor="#fff494", fontcolor="#000000"];
 
     // --- EDGES / FLOW ---
     
