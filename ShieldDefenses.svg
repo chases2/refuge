@@ -1,0 +1,394 @@
+<svg width="743pt" height="1155pt" viewBox="0.00 0.00 743.00 1155.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1150.8)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1150.8 739,-1150.8 739,4 -4,4"/>
+<!-- hit1 -->
+<g id="node1" class="node">
+<title>hit1</title>
+<polygon fill="#1a1a1a" stroke="#333333" points="347,-1146.8 239,-1146.8 239,-1103.6 347,-1103.6 347,-1146.8"/>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-1121" font-family="sans-serif" font-size="14.00" fill="#ffffff">I've been hit!</text>
+</g>
+<!-- dumb_def -->
+<g id="node25" class="node">
+<title>dumb_def</title>
+<polygon fill="#fff494" stroke="#333333" points="372.16,-1074.6 213.84,-1074.6 213.84,-999.4 372.16,-999.4 372.16,-1074.6"/>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-1058" font-family="sans-serif" font-size="14.00" fill="#000000">Dumb Defense Triggers:</text>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-1041.2" font-family="sans-serif" font-size="14.00" fill="#000000">Weapon Shield, Spell</text>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-1024.4" font-family="sans-serif" font-size="14.00" fill="#000000">Shield, Elemental Shield,</text>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-1007.6" font-family="sans-serif" font-size="14.00" fill="#000000">Poison Shield, Reflect</text>
+</g>
+<!-- hit1&#45;&gt;dumb_def -->
+<g id="edge1" class="edge">
+<title>hit1-&gt;dumb_def</title>
+<path fill="none" stroke="#333333" d="M293,-1103.33C293,-1097.44 293,-1090.79 293,-1084.03"/>
+<polygon fill="#333333" stroke="#333333" points="295.8,-1084.34 293,-1076.34 290.2,-1084.34 295.8,-1084.34"/>
+</g>
+<!-- hit2 -->
+<g id="node2" class="node">
+<title>hit2</title>
+<polygon fill="#1a1a1a" stroke="#333333" points="348.23,-970.4 237.77,-970.4 237.77,-912 348.23,-912 348.23,-970.4"/>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-953.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">I've been hit</text>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-937" font-family="sans-serif" font-size="14.00" fill="#ffffff">again! Do I want</text>
+<text xml:space="preserve" text-anchor="middle" x="293" y="-920.2" font-family="sans-serif" font-size="14.00" fill="#ffffff">to take it?</text>
+</g>
+<!-- yes_take -->
+<g id="node13" class="node">
+<title>yes_take</title>
+<polygon fill="#b4f177" stroke="#333333" points="275,-883 167,-883 167,-839.8 275,-839.8 275,-883"/>
+<text xml:space="preserve" text-anchor="middle" x="221" y="-857.2" font-family="sans-serif" font-size="14.00" fill="#000000">Yes</text>
+</g>
+<!-- hit2&#45;&gt;yes_take -->
+<g id="edge3" class="edge">
+<title>hit2-&gt;yes_take</title>
+<path fill="none" stroke="#333333" d="M266.6,-911.67C260.1,-904.65 253.14,-897.13 246.68,-890.15"/>
+<polygon fill="#333333" stroke="#333333" points="248.92,-888.45 241.44,-884.48 244.81,-892.25 248.92,-888.45"/>
+</g>
+<!-- no_take -->
+<g id="node18" class="node">
+<title>no_take</title>
+<polygon fill="#ff9999" stroke="#333333" points="419,-883 311,-883 311,-839.8 419,-839.8 419,-883"/>
+<text xml:space="preserve" text-anchor="middle" x="365" y="-857.2" font-family="sans-serif" font-size="14.00" fill="#000000">No</text>
+</g>
+<!-- hit2&#45;&gt;no_take -->
+<g id="edge5" class="edge">
+<title>hit2-&gt;no_take</title>
+<path fill="none" stroke="#333333" d="M319.4,-911.67C325.9,-904.65 332.86,-897.13 339.32,-890.15"/>
+<polygon fill="#333333" stroke="#333333" points="341.19,-892.25 344.56,-884.48 337.08,-888.45 341.19,-892.25"/>
+</g>
+<!-- blocked -->
+<g id="node3" class="node">
+<title>blocked</title>
+<polygon fill="#1a1a1a" stroke="#333333" points="352.7,-666.4 191.3,-666.4 191.3,-623.2 352.7,-623.2 352.7,-666.4"/>
+<text xml:space="preserve" text-anchor="middle" x="272" y="-640.6" font-family="sans-serif" font-size="14.00" fill="#ffffff">Did you actually block it?</text>
+</g>
+<!-- yes_inter -->
+<g id="node15" class="node">
+<title>yes_inter</title>
+<polygon fill="#b4f177" stroke="#333333" points="244,-594.2 136,-594.2 136,-551 244,-551 244,-594.2"/>
+<text xml:space="preserve" text-anchor="middle" x="190" y="-568.4" font-family="sans-serif" font-size="14.00" fill="#000000">Yes</text>
+</g>
+<!-- blocked&#45;&gt;yes_inter -->
+<g id="edge11" class="edge">
+<title>blocked-&gt;yes_inter</title>
+<path fill="none" stroke="#333333" d="M247.4,-622.74C239.29,-615.8 230.16,-607.98 221.6,-600.65"/>
+<polygon fill="#333333" stroke="#333333" points="223.63,-598.71 215.74,-595.63 219.99,-602.96 223.63,-598.71"/>
+</g>
+<!-- no_block -->
+<g id="node21" class="node">
+<title>no_block</title>
+<polygon fill="#ff9999" stroke="#333333" points="388,-594.2 280,-594.2 280,-551 388,-551 388,-594.2"/>
+<text xml:space="preserve" text-anchor="middle" x="334" y="-568.4" font-family="sans-serif" font-size="14.00" fill="#000000">No</text>
+</g>
+<!-- blocked&#45;&gt;no_block -->
+<g id="edge13" class="edge">
+<title>blocked-&gt;no_block</title>
+<path fill="none" stroke="#333333" d="M290.6,-622.74C296.49,-616.07 303.09,-608.6 309.33,-601.53"/>
+<polygon fill="#333333" stroke="#333333" points="311.21,-603.63 314.41,-595.78 307.01,-599.92 311.21,-603.63"/>
+</g>
+<!-- qualifier -->
+<g id="node4" class="node">
+<title>qualifier</title>
+<polygon fill="#1a1a1a" stroke="#333333" points="419,-810.8 311,-810.8 311,-767.6 419,-767.6 419,-810.8"/>
+<text xml:space="preserve" text-anchor="middle" x="365" y="-793.4" font-family="sans-serif" font-size="14.00" fill="#ffffff">Does it have a</text>
+<text xml:space="preserve" text-anchor="middle" x="365" y="-776.6" font-family="sans-serif" font-size="14.00" fill="#ffffff">strike qualifier?</text>
+</g>
+<!-- yes_qual -->
+<g id="node14" class="node">
+<title>yes_qual</title>
+<polygon fill="#b4f177" stroke="#333333" points="357,-738.6 249,-738.6 249,-695.4 357,-695.4 357,-738.6"/>
+<text xml:space="preserve" text-anchor="middle" x="303" y="-712.8" font-family="sans-serif" font-size="14.00" fill="#000000">Yes</text>
+</g>
+<!-- qualifier&#45;&gt;yes_qual -->
+<g id="edge7" class="edge">
+<title>qualifier-&gt;yes_qual</title>
+<path fill="none" stroke="#333333" d="M346.4,-767.14C340.51,-760.47 333.91,-753 327.67,-745.93"/>
+<polygon fill="#333333" stroke="#333333" points="329.99,-744.32 322.59,-740.18 325.79,-748.03 329.99,-744.32"/>
+</g>
+<!-- no_qual -->
+<g id="node19" class="node">
+<title>no_qual</title>
+<polygon fill="#ff9999" stroke="#333333" points="497,-666.4 389,-666.4 389,-623.2 497,-623.2 497,-666.4"/>
+<text xml:space="preserve" text-anchor="middle" x="443" y="-640.6" font-family="sans-serif" font-size="14.00" fill="#000000">No</text>
+</g>
+<!-- qualifier&#45;&gt;no_qual -->
+<g id="edge8" class="edge">
+<title>qualifier-&gt;no_qual</title>
+<path fill="none" stroke="#333333" d="M376.51,-767.19C389.87,-742.79 412,-702.39 427.03,-674.96"/>
+<polygon fill="#333333" stroke="#333333" points="429.33,-676.59 430.72,-668.23 424.42,-673.9 429.33,-676.59"/>
+</g>
+<!-- duration -->
+<g id="node5" class="node">
+<title>duration</title>
+<polygon fill="#1a1a1a" stroke="#333333" points="519.27,-218 410.73,-218 410.73,-159.6 519.27,-159.6 519.27,-218"/>
+<text xml:space="preserve" text-anchor="middle" x="465" y="-201.4" font-family="sans-serif" font-size="14.00" fill="#ffffff">Does it rely on a</text>
+<text xml:space="preserve" text-anchor="middle" x="465" y="-184.6" font-family="sans-serif" font-size="14.00" fill="#ffffff">duration or line</text>
+<text xml:space="preserve" text-anchor="middle" x="465" y="-167.8" font-family="sans-serif" font-size="14.00" fill="#ffffff">of sight?</text>
+</g>
+<!-- yes_dur -->
+<g id="node16" class="node">
+<title>yes_dur</title>
+<polygon fill="#b4f177" stroke="#333333" points="447,-130.6 339,-130.6 339,-87.4 447,-87.4 447,-130.6"/>
+<text xml:space="preserve" text-anchor="middle" x="393" y="-104.8" font-family="sans-serif" font-size="14.00" fill="#000000">Yes</text>
+</g>
+<!-- duration&#45;&gt;yes_dur -->
+<g id="edge29" class="edge">
+<title>duration-&gt;yes_dur</title>
+<path fill="none" stroke="#333333" d="M438.6,-159.27C432.1,-152.25 425.14,-144.73 418.68,-137.75"/>
+<polygon fill="#333333" stroke="#333333" points="420.92,-136.05 413.44,-132.08 416.81,-139.85 420.92,-136.05"/>
+</g>
+<!-- no_dur -->
+<g id="node20" class="node">
+<title>no_dur</title>
+<polygon fill="#ff9999" stroke="#333333" points="591,-130.6 483,-130.6 483,-87.4 591,-87.4 591,-130.6"/>
+<text xml:space="preserve" text-anchor="middle" x="537" y="-104.8" font-family="sans-serif" font-size="14.00" fill="#000000">No</text>
+</g>
+<!-- duration&#45;&gt;no_dur -->
+<g id="edge31" class="edge">
+<title>duration-&gt;no_dur</title>
+<path fill="none" stroke="#333333" d="M491.4,-159.27C497.9,-152.25 504.86,-144.73 511.32,-137.75"/>
+<polygon fill="#333333" stroke="#333333" points="513.19,-139.85 516.56,-132.08 509.08,-136.05 513.19,-139.85"/>
+</g>
+<!-- qual2 -->
+<g id="node6" class="node">
+<title>qual2</title>
+<polygon fill="#1a1a1a" stroke="#333333" points="456.78,-522 329.22,-522 329.22,-478.8 456.78,-478.8 456.78,-522"/>
+<text xml:space="preserve" text-anchor="middle" x="393" y="-496.2" font-family="sans-serif" font-size="14.00" fill="#ffffff">What qualifier is it?</text>
+</g>
+<!-- Weapon -->
+<g id="node8" class="node">
+<title>Weapon</title>
+<polygon fill="#bbbbbb" stroke="#333333" points="134.78,-449.8 13.22,-449.8 13.22,-406.6 134.78,-406.6 134.78,-449.8"/>
+<text xml:space="preserve" text-anchor="middle" x="74" y="-432.4" font-family="sans-serif" font-size="14.00" fill="#000000">Weapon</text>
+<text xml:space="preserve" text-anchor="middle" x="74" y="-415.6" font-family="sans-serif" font-size="14.00" fill="#000000">(or they didn't say)</text>
+</g>
+<!-- qual2&#45;&gt;Weapon -->
+<g id="edge15" class="edge">
+<title>qual2-&gt;Weapon</title>
+<path fill="none" stroke="#333333" d="M328.83,-485.28C275.32,-473.5 199.19,-456.75 144.09,-444.62"/>
+<polygon fill="#333333" stroke="#333333" points="144.98,-441.95 136.57,-442.97 143.78,-447.42 144.98,-441.95"/>
+</g>
+<!-- Elemental -->
+<g id="node9" class="node">
+<title>Elemental</title>
+<polygon fill="#bbbbbb" stroke="#333333" points="318,-449.8 210,-449.8 210,-406.6 318,-406.6 318,-449.8"/>
+<text xml:space="preserve" text-anchor="middle" x="264" y="-424" font-family="sans-serif" font-size="14.00" fill="#000000">Elemental</text>
+</g>
+<!-- qual2&#45;&gt;Elemental -->
+<g id="edge17" class="edge">
+<title>qual2-&gt;Elemental</title>
+<path fill="none" stroke="#333333" d="M354.3,-478.34C340.65,-470.91 325.15,-462.48 310.9,-454.72"/>
+<polygon fill="#333333" stroke="#333333" points="312.37,-452.34 304.01,-450.97 309.69,-457.25 312.37,-452.34"/>
+</g>
+<!-- Arcane -->
+<g id="node10" class="node">
+<title>Arcane</title>
+<polygon fill="#bbbbbb" stroke="#333333" points="447,-290.2 339,-290.2 339,-247 447,-247 447,-290.2"/>
+<text xml:space="preserve" text-anchor="middle" x="393" y="-264.4" font-family="sans-serif" font-size="14.00" fill="#000000">Arcane</text>
+</g>
+<!-- qual2&#45;&gt;Arcane -->
+<g id="edge19" class="edge">
+<title>qual2-&gt;Arcane</title>
+<path fill="none" stroke="#333333" d="M393,-478.6C393,-437.86 393,-347.38 393,-299.95"/>
+<polygon fill="#333333" stroke="#333333" points="395.8,-300.03 393,-292.03 390.2,-300.03 395.8,-300.03"/>
+</g>
+<!-- Spell -->
+<g id="node11" class="node">
+<title>Spell</title>
+<polygon fill="#bbbbbb" stroke="#333333" points="556,-449.8 448,-449.8 448,-406.6 556,-406.6 556,-449.8"/>
+<text xml:space="preserve" text-anchor="middle" x="502" y="-424" font-family="sans-serif" font-size="14.00" fill="#000000">Spell</text>
+</g>
+<!-- qual2&#45;&gt;Spell -->
+<g id="edge21" class="edge">
+<title>qual2-&gt;Spell</title>
+<path fill="none" stroke="#333333" d="M425.7,-478.34C436.91,-471.12 449.59,-462.95 461.35,-455.38"/>
+<polygon fill="#333333" stroke="#333333" points="462.84,-457.75 468.05,-451.07 459.81,-453.04 462.84,-457.75"/>
+</g>
+<!-- Poison -->
+<g id="node12" class="node">
+<title>Poison</title>
+<polygon fill="#bbbbbb" stroke="#333333" points="700,-449.8 592,-449.8 592,-406.6 700,-406.6 700,-449.8"/>
+<text xml:space="preserve" text-anchor="middle" x="646" y="-424" font-family="sans-serif" font-size="14.00" fill="#000000">Poison</text>
+</g>
+<!-- qual2&#45;&gt;Poison -->
+<g id="edge23" class="edge">
+<title>qual2-&gt;Poison</title>
+<path fill="none" stroke="#333333" d="M457.13,-482.01C491.77,-472.58 535.25,-460.65 574,-449.8 576.88,-448.99 579.82,-448.17 582.8,-447.33"/>
+<polygon fill="#333333" stroke="#333333" points="583.37,-450.07 590.31,-445.2 581.85,-444.68 583.37,-450.07"/>
+</g>
+<!-- shield -->
+<g id="node7" class="node">
+<title>shield</title>
+<polygon fill="#1a1a1a" stroke="#333333" points="661.44,-370 522.56,-370 522.56,-326.8 661.44,-326.8 661.44,-370"/>
+<text xml:space="preserve" text-anchor="middle" x="592" y="-344.2" font-family="sans-serif" font-size="14.00" fill="#ffffff">Did it hit your shield?</text>
+</g>
+<!-- yes_shield -->
+<g id="node17" class="node">
+<title>yes_shield</title>
+<polygon fill="#b4f177" stroke="#333333" points="735,-290.2 627,-290.2 627,-247 735,-247 735,-290.2"/>
+<text xml:space="preserve" text-anchor="middle" x="681" y="-264.4" font-family="sans-serif" font-size="14.00" fill="#000000">Yes</text>
+</g>
+<!-- shield&#45;&gt;yes_shield -->
+<g id="edge25" class="edge">
+<title>shield-&gt;yes_shield</title>
+<path fill="none" stroke="#333333" d="M615.85,-326.55C626.33,-317.39 638.76,-306.52 649.95,-296.75"/>
+<polygon fill="#333333" stroke="#333333" points="651.76,-298.88 655.94,-291.5 648.08,-294.66 651.76,-298.88"/>
+</g>
+<!-- no_shield -->
+<g id="node22" class="node">
+<title>no_shield</title>
+<polygon fill="#ff9999" stroke="#333333" points="591,-290.2 483,-290.2 483,-247 591,-247 591,-290.2"/>
+<text xml:space="preserve" text-anchor="middle" x="537" y="-264.4" font-family="sans-serif" font-size="14.00" fill="#000000">No</text>
+</g>
+<!-- shield&#45;&gt;no_shield -->
+<g id="edge27" class="edge">
+<title>shield-&gt;no_shield</title>
+<path fill="none" stroke="#333333" d="M577.26,-326.55C571.1,-317.83 563.83,-307.55 557.18,-298.15"/>
+<polygon fill="#333333" stroke="#333333" points="559.56,-296.66 552.65,-291.74 554.99,-299.89 559.56,-296.66"/>
+</g>
+<!-- parry1 -->
+<g id="node26" class="node">
+<title>parry1</title>
+<polygon fill="#fff494" stroke="#333333" points="108,-377.6 0,-377.6 0,-319.2 108,-319.2 108,-377.6"/>
+<text xml:space="preserve" text-anchor="middle" x="54" y="-361" font-family="sans-serif" font-size="14.00" fill="#000000">Parry OR</text>
+<text xml:space="preserve" text-anchor="middle" x="54" y="-344.2" font-family="sans-serif" font-size="14.00" fill="#000000">Realmsworn</text>
+<text xml:space="preserve" text-anchor="middle" x="54" y="-327.4" font-family="sans-serif" font-size="14.00" fill="#000000">Weapon Resist.</text>
+</g>
+<!-- Weapon&#45;&gt;parry1 -->
+<g id="edge16" class="edge">
+<title>Weapon-&gt;parry1</title>
+<path fill="none" stroke="#333333" d="M68.64,-406.35C67.1,-400.35 65.36,-393.61 63.65,-386.92"/>
+<polygon fill="#333333" stroke="#333333" points="66.41,-386.43 61.71,-379.38 60.99,-387.82 66.41,-386.43"/>
+</g>
+<!-- elem_res -->
+<g id="node28" class="node">
+<title>elem_res</title>
+<polygon fill="#fff494" stroke="#333333" points="338.04,-370 143.96,-370 143.96,-326.8 338.04,-326.8 338.04,-370"/>
+<text xml:space="preserve" text-anchor="middle" x="241" y="-352.6" font-family="sans-serif" font-size="14.00" fill="#000000">Realmsworn Elemental Resist</text>
+<text xml:space="preserve" text-anchor="middle" x="241" y="-335.8" font-family="sans-serif" font-size="14.00" fill="#000000">OR Stalwart Shield (if blocked)</text>
+</g>
+<!-- Elemental&#45;&gt;elem_res -->
+<g id="edge18" class="edge">
+<title>Elemental-&gt;elem_res</title>
+<path fill="none" stroke="#333333" d="M257.84,-406.35C255.39,-398.07 252.52,-388.38 249.86,-379.37"/>
+<polygon fill="#333333" stroke="#333333" points="252.56,-378.64 247.61,-371.76 247.19,-380.22 252.56,-378.64"/>
+</g>
+<!-- Arcane&#45;&gt;duration -->
+<g id="edge20" class="edge">
+<title>Arcane-&gt;duration</title>
+<path fill="none" stroke="#333333" d="M412.29,-246.75C418.48,-240.07 425.51,-232.47 432.38,-225.05"/>
+<polygon fill="#333333" stroke="#333333" points="434.21,-227.2 437.59,-219.42 430.1,-223.39 434.21,-227.2"/>
+</g>
+<!-- Spell&#45;&gt;shield -->
+<g id="edge22" class="edge">
+<title>Spell-&gt;shield</title>
+<path fill="none" stroke="#333333" d="M526.12,-406.35C536.81,-397.11 549.53,-386.12 560.92,-376.27"/>
+<polygon fill="#333333" stroke="#333333" points="562.45,-378.65 566.67,-371.3 558.79,-374.41 562.45,-378.65"/>
+</g>
+<!-- Poison&#45;&gt;shield -->
+<g id="edge24" class="edge">
+<title>Poison-&gt;shield</title>
+<path fill="none" stroke="#333333" d="M631.53,-406.35C625.48,-397.63 618.34,-387.35 611.82,-377.95"/>
+<polygon fill="#333333" stroke="#333333" points="614.24,-376.53 607.37,-371.55 609.64,-379.72 614.24,-376.53"/>
+</g>
+<!-- luck1 -->
+<g id="node23" class="node">
+<title>luck1</title>
+<polygon fill="#ff66cc" stroke="#333333" points="275,-810.8 167,-810.8 167,-767.6 275,-767.6 275,-810.8"/>
+<text xml:space="preserve" text-anchor="middle" x="221" y="-785" font-family="sans-serif" font-size="14.00" fill="#000000">ok</text>
+</g>
+<!-- yes_take&#45;&gt;luck1 -->
+<g id="edge4" class="edge">
+<title>yes_take-&gt;luck1</title>
+<path fill="none" stroke="#333333" d="M221,-839.34C221,-833.37 221,-826.75 221,-820.36"/>
+<polygon fill="#333333" stroke="#333333" points="223.8,-820.76 221,-812.76 218.2,-820.76 223.8,-820.76"/>
+</g>
+<!-- yes_qual&#45;&gt;blocked -->
+<g id="edge10" class="edge">
+<title>yes_qual-&gt;blocked</title>
+<path fill="none" stroke="#333333" d="M293.7,-694.94C291,-688.83 288,-682.04 285.12,-675.51"/>
+<polygon fill="#333333" stroke="#333333" points="287.7,-674.42 281.91,-668.23 282.58,-676.68 287.7,-674.42"/>
+</g>
+<!-- counter -->
+<g id="node27" class="node">
+<title>counter</title>
+<polygon fill="#fff494" stroke="#333333" points="244,-522 136,-522 136,-478.8 244,-478.8 244,-522"/>
+<text xml:space="preserve" text-anchor="middle" x="190" y="-496.2" font-family="sans-serif" font-size="14.00" fill="#000000">Counteract.</text>
+</g>
+<!-- yes_inter&#45;&gt;counter -->
+<g id="edge12" class="edge">
+<title>yes_inter-&gt;counter</title>
+<path fill="none" stroke="#333333" d="M190,-550.54C190,-544.57 190,-537.95 190,-531.56"/>
+<polygon fill="#333333" stroke="#333333" points="192.8,-531.96 190,-523.96 187.2,-531.96 192.8,-531.96"/>
+</g>
+<!-- mettle -->
+<g id="node29" class="node">
+<title>mettle</title>
+<polygon fill="#fff494" stroke="#333333" points="447,-58.4 339,-58.4 339,0 447,0 447,-58.4"/>
+<text xml:space="preserve" text-anchor="middle" x="393" y="-41.8" font-family="sans-serif" font-size="14.00" fill="#000000">Mettle (unless</text>
+<text xml:space="preserve" text-anchor="middle" x="393" y="-25" font-family="sans-serif" font-size="14.00" fill="#000000">less than 20</text>
+<text xml:space="preserve" text-anchor="middle" x="393" y="-8.2" font-family="sans-serif" font-size="14.00" fill="#000000">body)</text>
+</g>
+<!-- yes_dur&#45;&gt;mettle -->
+<g id="edge30" class="edge">
+<title>yes_dur-&gt;mettle</title>
+<path fill="none" stroke="#333333" d="M393,-87.15C393,-81.28 393,-74.71 393,-68.18"/>
+<polygon fill="#333333" stroke="#333333" points="395.8,-68.23 393,-60.23 390.2,-68.23 395.8,-68.23"/>
+</g>
+<!-- stalwart -->
+<g id="node30" class="node">
+<title>stalwart</title>
+<polygon fill="#fff494" stroke="#333333" points="735,-210.4 627,-210.4 627,-167.2 735,-167.2 735,-210.4"/>
+<text xml:space="preserve" text-anchor="middle" x="681" y="-193" font-family="sans-serif" font-size="14.00" fill="#000000">Stalwart Shield</text>
+<text xml:space="preserve" text-anchor="middle" x="681" y="-176.2" font-family="sans-serif" font-size="14.00" fill="#000000">("Cloak")</text>
+</g>
+<!-- yes_shield&#45;&gt;stalwart -->
+<g id="edge26" class="edge">
+<title>yes_shield-&gt;stalwart</title>
+<path fill="none" stroke="#333333" d="M681,-246.75C681,-238.55 681,-228.98 681,-220.05"/>
+<polygon fill="#333333" stroke="#333333" points="683.8,-220.22 681,-212.22 678.2,-220.22 683.8,-220.22"/>
+</g>
+<!-- no_take&#45;&gt;qualifier -->
+<g id="edge6" class="edge">
+<title>no_take-&gt;qualifier</title>
+<path fill="none" stroke="#333333" d="M365,-839.34C365,-833.37 365,-826.75 365,-820.36"/>
+<polygon fill="#333333" stroke="#333333" points="367.8,-820.76 365,-812.76 362.2,-820.76 367.8,-820.76"/>
+</g>
+<!-- no_qual&#45;&gt;qual2 -->
+<g id="edge9" class="edge">
+<title>no_qual-&gt;qual2</title>
+<path fill="none" stroke="#333333" d="M435.62,-622.79C427.13,-598.6 413.11,-558.69 403.49,-531.27"/>
+<polygon fill="#333333" stroke="#333333" points="406.2,-530.55 400.91,-523.93 400.92,-532.4 406.2,-530.55"/>
+</g>
+<!-- luck2 -->
+<g id="node24" class="node">
+<title>luck2</title>
+<polygon fill="#ff66cc" stroke="#333333" points="591,-50.8 483,-50.8 483,-7.6 591,-7.6 591,-50.8"/>
+<text xml:space="preserve" text-anchor="middle" x="537" y="-33.4" font-family="sans-serif" font-size="14.00" fill="#000000">lol good</text>
+<text xml:space="preserve" text-anchor="middle" x="537" y="-16.6" font-family="sans-serif" font-size="14.00" fill="#000000">luck girl</text>
+</g>
+<!-- no_dur&#45;&gt;luck2 -->
+<g id="edge32" class="edge">
+<title>no_dur-&gt;luck2</title>
+<path fill="none" stroke="#333333" d="M537,-87.15C537,-78.95 537,-69.38 537,-60.45"/>
+<polygon fill="#333333" stroke="#333333" points="539.8,-60.62 537,-52.62 534.2,-60.62 539.8,-60.62"/>
+</g>
+<!-- no_block&#45;&gt;qual2 -->
+<g id="edge14" class="edge">
+<title>no_block-&gt;qual2</title>
+<path fill="none" stroke="#333333" d="M351.7,-550.54C357.3,-543.87 363.58,-536.4 369.52,-529.33"/>
+<polygon fill="#333333" stroke="#333333" points="371.33,-531.53 374.34,-523.61 367.05,-527.93 371.33,-531.53"/>
+</g>
+<!-- no_shield&#45;&gt;duration -->
+<g id="edge28" class="edge">
+<title>no_shield-&gt;duration</title>
+<path fill="none" stroke="#333333" d="M517.71,-246.75C511.52,-240.07 504.49,-232.47 497.62,-225.05"/>
+<polygon fill="#333333" stroke="#333333" points="499.9,-223.39 492.41,-219.42 495.79,-227.2 499.9,-223.39"/>
+</g>
+<!-- dumb_def&#45;&gt;hit2 -->
+<g id="edge2" class="edge">
+<title>dumb_def-&gt;hit2</title>
+<path fill="none" stroke="#333333" d="M293,-998.93C293,-992.74 293,-986.32 293,-980.12"/>
+<polygon fill="#333333" stroke="#333333" points="295.8,-980.13 293,-972.13 290.2,-980.13 295.8,-980.13"/>
+</g>
+</g>
+</svg>
