@@ -1,0 +1,123 @@
+digraph G {
+    // Styling for the graph
+    fontname="sans-serif";
+    labeljust="l";
+    nodesep=0.5;
+    ranksep=0.4;
+    
+    // Default node attributes
+    node [
+        fontname="sans-serif",
+        shape=box,
+        style=filled,
+        fixedsize=false,
+        width=1.5,
+        height=0.6,
+        color="#333333"
+    ];
+
+    // Default edge attributes
+    edge [
+        fontname="sans-serif",
+        color="#333333",
+        arrowsize=0.8
+    ];
+
+    // --- NODE DEFINITIONS ---
+    
+    node [
+        fillcolor="#1a1a1a"
+        fontcolor="#ffffff"
+    ]
+    
+    // Black Background Nodes (Questions/Events)
+    hit1       [label="I've been hit!",];
+    hit2       [label="I've been hit\nagain! Do I want\nto take it?"];
+    blocked    [label="Did you actually block it?"]
+    qualifier  [label="Does it have a\nstrike qualifier?"];
+    duration   [label="Does it rely on a\nduration or line\nof sight?"];
+    qual2      [label="What qualifier is it?"]
+    shield     [label="Did it hit your shield?"]
+    
+    // Gray nodes
+    node [
+        fillcolor="#bbbbbb"
+        fontcolor="#000000"
+    ]
+    
+    Weapon [label="Weapon\n(or they didn't say)"]
+    Elemental
+    Arcane
+    Spell
+    Poison
+
+    node [
+        fillcolor="#b4f177"
+        fontcolor="#000000"
+        label="Yes"
+    ]
+    // Green Nodes (Yes)
+    yes_take;
+    yes_qual;
+    yes_inter;
+    yes_dur;
+    yes_shield;
+    
+    node [
+        fillcolor="#ff9999"
+        fontcolor="#000000"
+        label="No"
+    ]
+
+    // Red/Pinkish Nodes (No)
+    no_take   
+    no_qual    
+    no_dur
+    no_block
+    no_shield
+    
+    // Hot Pink Nodes ("lol good luck girl")
+    luck1      [label="ok", fillcolor="#ff66cc", fontcolor="#000000"];
+    luck2      [label="lol good\nluck girl", fillcolor="#ff66cc", fontcolor="#000000"];
+
+    // Yellow Nodes (Actions/Outcomes)
+    dumb_def   [label="Dumb Defense Triggers:\nWeapon Shield, Spell\nShield, Elemental Shield,\nPoison Shield, Reflect", fillcolor="#fff494", fontcolor="#000000"];
+    parry1     [label="Parry OR\nRealmsworn\nWeapon Resist.", fillcolor="#fff494", fontcolor="#000000"];
+    counter    [label="Counteract.", fillcolor="#fff494", fontcolor="#000000"];
+    elem_res   [label="Realmsworn Elemental Resist\nOR Stalwart Shield (if blocked)", fillcolor="#fff494", fontcolor="#000000"];
+    mettle     [label="Mettle (unless\nless than 20\nbody)", fillcolor="#fff494", fontcolor="#000000"];
+    stalwart   [label="Stalwart Shield\n(\"Cloak\")", fillcolor="#fff494", fontcolor="#000000"];
+
+    // --- EDGES / FLOW ---
+    
+    hit1 -> dumb_def -> hit2;
+    
+    // Take the hit?
+    hit2 -> yes_take;
+    yes_take -> luck1;
+    hit2 -> no_take;
+    
+    // Strike qualifier branch
+    no_take -> qualifier;
+    qualifier -> yes_qual;
+    qualifier -> no_qual -> duration;
+    yes_qual -> blocked -> yes_inter -> counter;
+    blocked -> no_block -> duration;
+    
+    // Duration / Line of sight branch
+    duration -> yes_dur -> mettle;
+    duration -> no_dur -> qual2;
+    
+    // What type?
+    qual2 -> Weapon -> parry1;
+    qual2 -> Elemental -> elem_res;
+    qual2 -> Arcane -> luck2;
+    qual2 -> Spell -> shield;
+    qual2 -> Poison -> shield;
+    
+    // Stalwart Shield
+    shield -> yes_shield -> stalwart;
+    shield -> no_shield -> luck2;
+
+
+}
